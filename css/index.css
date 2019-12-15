@@ -1,41 +1,70 @@
-body{
-    padding-top: 40px;
+body {
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 16%, rgba(133, 130, 130, 0.87718837535014) 48%, rgba(184, 178, 178, 0.8379726890756303) 67%);
 }
+
 #main {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  padding: 3% 15%;
+  text-align: justify;
 }
 
 #content {
-  display: inline-block;
+  padding: 3% 10%;
   font-family: "Courier New", Monospace, sans-serif;
+  background: rgb(0, 0, 0);
+  background: rgb(83,103,12);
+background: linear-gradient(90deg, rgba(83,103,12,0.835171568627451) 25%, rgba(212,232,142,0.6811099439775911) 50%, rgba(152,158,129,0.5550595238095238) 74%);
+
 }
 
-img{
-    border-radius: 50%;
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 50%;
+  margin: 3% 0;
 }
 
 hr.new1 {
-    border-top: 2px solid #1aa0ee;
-  }
- 
-#list1{
-    color: #ec6957;
+  border-top: 2px solid #53670c;
 }
 
-#list2{
-    display: inline-block;
-    color: #434c52;
-    font-family: "Courier New", Monospace, sans-serif;
-  
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
-a{
-    color: inherit;
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#list1 {
+  color: #fff;
+}
+
+#list2 {
+  color: #434c52;
+  font-family: "Courier New", Monospace, sans-serif;
+}
+
+a {
+  color: inherit;
 }
 
 hr.new2 {
-    border-top: 1px solid #3d474d;
-  }
+border-color: #53670c;
+}
+.fab{
+  padding: 0 18px;
+}
